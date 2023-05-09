@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 95%)
+    ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.item{
+    flex: 1;
+    max-width: 18rem;
+    padding: 40px;
+}
+.item-1{
+    background-color:hsl(31, 77%, 52%) ;
+    border-radius: 7px 0 0 7px ;
+}
+.item-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.item-3{
+    background-color:hsl(179, 100%, 13%);
+    border-radius:0 7px  7px 0 ;
+
+}
+.title{
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin:1rem 0;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 5rem;
+    font-size: 15px;
+    
+}
+.btn{
+    margin-bottom: 1rem;
+}
+.btn-sedans {
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%) ;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+
+  }
+.btn-sedans:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color:hsl(0, 0%, 95%);
+
+}
+.btn-suvs{
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+
+
+}
+.btn-suvs:hover{
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+
+}
+.btn-luxury{
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+
+
+}
+.btn-luxury:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+
+}
+@media (max-width:576px) {
+    body{
+        font-size: 15px;
+        background-color: hsl(0, 0%, 95%) ;
+    }
+.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+}
+.item{
+
+    max-width: 17rem;
+    max-height: 24rem;
+
+    padding: 40px;
+    height: 100vh;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2rem;
+    font-size: 15px;
+    
+}
+.item-1{
+    background-color:hsl(31, 77%, 52%) ;
+    border-radius: 7px  7px 0 0 ;
+}
+.item-2{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0;
+}
+.item-3{
+    background-color:hsl(179, 100%, 13%);
+    border-radius:0 0 7px 7px ;
+
+}
+}
